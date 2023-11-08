@@ -12,32 +12,33 @@ body {
 
 .header {
     width: 100%;
-    height: 10px;
-    color: #FFFFFF;
+    height: 192px;
 }
 
 .first-section {
-    width: 100vw;
-    height: 0px;
+    width: 993px;
+    height: 129px;
     display: flex;
     align-items: center;
-    margin-top: 34px;
+    margin-top: -25px;
+    margin-left: 20px;
 }
 
 .logo {
     display: flex;
     width: 253px;
     height: 44px;
-    margin-top: 75px;
-    margin-left: 104px;
+    margin-top: 45px;
+    margin-left: 90px;
     color: #C92071;
     gap: 10px;
+    cursor: pointer;
 }
 
 .logo svg {
-    width: 33px;
+    width: 21px;
     height: 33px;
-    top: 38px;
+    margin-top: -3px;
 }
 
 
@@ -45,14 +46,14 @@ body {
     width: 709px;
     height: 60px;
     top: 34px;
-    left: 384px;
+    margin-left: -60px;
     border-radius: 8px;
 }
 
 .buscar input {
     width: 559px;
     height: 40px;
-    margin-top: 34px;
+    margin-top: 22px;
     left: 384px;
     border-radius: 8px;
     padding: 0px;
@@ -76,48 +77,77 @@ input[type=text] {
    padding: 8px;
 }
 
-.buscar a {
+.buscar .cadastro {
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    margin-left: 22px;
-    line-height: 28px;
+    display: flex;
+    margin-left: 625px;
+    margin-top: -35px;
     letter-spacing: 0.75px;
-    text-align: left;
-    text-decoration: underline;
     color: #474747;
 }
+
+.buscar .cadastro:hover {
+    text-decoration: underline;
+}
+
 
 button {
     width: 114px;
     height: 30px;
-    margin-top: 60px;
-    margin-left: 25px;
+    margin-top: -65px;
+    margin-left: 1050px;
+    display: flex;
     border-radius: 5px;
     background: #C92071;
     color: #FFFFFF;
     outline: 0;
     border: none;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
 
+
+}
+
+.menu li{
+    display: flex;
+    margin-left: -195px;
+    margin-top: 55px;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.menu a {
+    color: #474747;
+}
+
+.menu a:hover {
+    color: #C92071;
+    text-decoration: underline;
 }
 
 .content-main {
     width: 100vw;
     height: 681px;
-    margin-top: 144px;
+    margin-top: 0px;
     background: #F5F5F5;
+    display: flex;
 
 }
 
 .text-main {
-    width: 510px;
-    height: 352px;
+    width: 1303px;
+    height: 398px;
     margin-left: 100px;
-    padding: 23px;
+    margin-top: 48px;
 }
 
 .text-main h3 {
+    width: 280px;
+    height: 24px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 700;
@@ -129,12 +159,58 @@ button {
 }
 
 .text-main h1 {
+    width: 510px;
+    height: 132px;
     font-family: Inter;
-    font-size: 64px;
+    font-size: 70px;
     font-weight: 800;
     line-height: 66px;
     letter-spacing: 0.9999998807907104px;
     text-align: left;
     size: 100px;
+    margin-top: 15px;
+}
+
+.text-main p {
+    width: 495px;
+    height: 68px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.text-main button {
+    width: 220px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.tenis {
+    display: flex;
+    width: 833.51px;
+    height: 650.61px;
+    margin-left: 400px;
+    margin-top: -430px;
+}
+
+/* .ornamento {
+    width: 140px;
+    height: 140px;
+    margin-left: 1250px;
+    opacity: 0.4px;
+} */
+
+.rover-paginas {
+    display: flex;
+    width: 78px;
+    height: 12px;
+    margin-top: -80px;
+    margin-left: 621px;
 
 }
