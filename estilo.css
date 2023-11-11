@@ -2,135 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    border: solid 1px red;
+    
 }
 
 body {
-    height: 100%;
     width: 100%;
-
-}
-
-/* ---------------------------------------------------------- Tela de login --------------------------------------------------------- */
-
-.linkDecor {
-    color: #474747;
-}
-
-#headerLogin {
-    width: 100%;
-    height: 80px;
-    background-color: #FFFFFF;
-    gap: 10px;
-    display: flex;
-    position: relative;
-}
-
-#logoLogin {
-    width: 172.5px;
-    height: 30px;
-    margin-top: 25px;
-    margin-left: 100px;
-}
-
-#bodyLogin {
-    background-image: linear-gradient(#B5B6F2, #EFEFFF);
-    background-attachment: fixed;
-}
-
-#caixaDeLogin {
-    width: 583px;
-    margin-top: 200px;
-    margin-left: 100px;   
-    border-radius: 4px;
-    padding: 30px;
-    gap: 30px;
-    background-color: #FFFFFF;   
-}
-
-#acesseLogin {
-    font-size: 32px;
-    line-height: 36px;
-    letter-spacing: 1px;
-    color: #1F1F1F;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#novoCliente {
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.75px;
-    align-items: center;
-    font-weight: 400;
-    color: #474747;
-}
-
-#loginTexto1 {
-    margin-top: 30px;
-}
-
-.loginNomes {
-    margin-bottom: 5px;
-    font-weight: 700;
-    font-size: 12px;
-    letter-spacing: 0.75px;
-    color: #474747;
-}
-
-#caixaDeEmail {
-    height: 60px;
-    background-color: #47474704;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    padding-left: 24.61px;
-}
-
-#email {
-    border: 0;
-    outline: 0;
-    background-color: transparent;
-    width: 98%;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.75px;
-    line-height: 28px;
-}
-
-input::placeholder{
-    color: #666666;
-    opacity: 60%;
-}
-
-#esqueciSenha{
-    margin-top: 30px;
-}
-
-#botaoConta {
-    margin-top: 30px;
-    width: 100%;
-    height: 48px;
-    border: none;
-    border-radius: 8px;
-    background-color: #C92071;
-    color: #F5F5F5;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.75px;
-}
-
-#ouFacaLoginCom {
-    margin-top: 30px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.75px;
+    background-color: #F9F8FE;
 }
 
 /* ------------------------------------------------------------- Home página ------------------------------------------------------------------ */
@@ -201,17 +78,23 @@ input::placeholder{
 #listaDeProdutos {
     width: 90%;
     margin: auto;
-    display: grid;
+}
+
+#tabelaP {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: auto;
 }
 
 #produtosEmAlta {
     display: flex;
-    position: fixed;
+    position: absolute;
 }
 
 #verTodos {
     display: flex;
-    position: fixed;
+    position: absolute;
     margin-left: 84%;
 }
 
@@ -233,12 +116,12 @@ input::placeholder{
     width: 250px;
     height: 250px;
 
-    background-color: grey;
+    background-color: #FFFFFF;
 }
 
 #produtoTipo {
     display: flex;
-    position: fixed;
+    position: absolute;
     margin-top: 12px;
     font-size: 12px;
     font-weight: bolder;
@@ -249,7 +132,7 @@ input::placeholder{
 
 #produtoNome {
     display: flex;
-    position: fixed;
+    position: absolute;
     margin-top: 30px;
     font-size: 22px;
     font-weight: 400px;
@@ -257,7 +140,7 @@ input::placeholder{
 
 #produtoValor {
     display: flex;
-    position: fixed;
+    position: absolute;
     margin-top: 60px;
     font-weight: bolder;
     font-size: 24px;
@@ -274,13 +157,77 @@ input::placeholder{
     width: 250px;
 }
 
+#ofertaEspecial {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 160px;
+    height: 700px;
+    display: flex;
+}
+
+#ofertaAnimacao{
+    background-image: linear-gradient(#4200FF25, #FFFFFF00);
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin-left: -1440px;
+    margin-top: 30px;
+}
+
+#fotoOferta {
+    display: flex;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 90px;
+    rotate: -30deg;
+}
+
+#ofertaEspecialDesc {
+    display: block;
+    margin-left: 220px;
+    margin-top: 120px;
+    height: 300px;
+}
+
+#ofertaEspecialDesc h4 {
+    color: #C92071;
+    font-weight: bold;
+    letter-spacing: 0.75px;
+    margin-bottom: 20px;
+}
+
+#ofertaEspecialDesc h2 {
+    font-size: 60px;
+    color: #474747;
+    margin-bottom: 40px;
+}
+
+#ofertaEspecialDesc p {
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    font-weight: 400;
+}
+
+#ofertaBotao {
+    width: 180px;
+    height: 36px;
+    background-color: #C92071;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.75px;
+    border: none;
+    margin-top: 460px;
+    margin-left: 244px;
+}
+
 /* --------------------------------------------------------------------- Footer -----------------------------------------------------------------------------*/
 
 footer {
     background-color: #1F1F1F;
     width: 100%;
     height: 454px;
-    position: absolute;
     bottom: 0;
     left: 0;
     color: white;
@@ -291,27 +238,27 @@ footer {
     margin-top: 65px;
     width: 307px;
     display: block;
-    position: fixed;
+    position: absolute;
     margin-left: 10%;
 }
 
 #footerDiv2 {
     display: block;
-    position: fixed;
+    position: absolute;
     margin-top: 65px;
     margin-left: 35%;
 }
 
 #footerDiv3 {
     display: block;
-    position: fixed;
+    position: absolute;
     margin-top: 65px;
     margin-left: 60%;
 }
 
 #footerDiv4 {
     display: block;
-    position: fixed;
+    position: absolute;
     margin-top: 65px;
     margin-left: 80%;
 }
@@ -341,7 +288,7 @@ footer h3 {
 
 #linhaFooter {
     display: block;
-    position: fixed;
+    position: absolute;
     background-color: darkgray;
     opacity: 40%;
     width: 80%;
