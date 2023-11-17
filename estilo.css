@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 body {
@@ -170,23 +169,27 @@ body {
     width: 600px;
     height: 600px;
     border-radius: 50%;
-    margin-left: -1440px;
-    margin-top: 30px;
+    margin-left: 120px;
+    margin-top: 90px;
+    display: flex;
+    position: absolute;
+    opacity: 60%;
 }
 
 #fotoOferta {
     display: flex;
-    border-radius: 50%;
-    margin-left: 200px;
-    margin-top: 90px;
-    rotate: -30deg;
+    margin-left: 40px;
+    margin-top: 150px;
+    position: absolute;
+    width: 750px;
 }
 
 #ofertaEspecialDesc {
     display: block;
-    margin-left: 220px;
+    margin-left: 880px;
     margin-top: 120px;
     height: 300px;
+    position: absolute;
 }
 
 #ofertaEspecialDesc h4 {
@@ -218,8 +221,9 @@ body {
     font-weight: bold;
     letter-spacing: 0.75px;
     border: none;
-    margin-top: 460px;
-    margin-left: 244px;
+    margin-top: 470px;
+    margin-left: 880px;
+    position: absolute;
 }
 
 /* --------------------------------------------------------------------- Footer -----------------------------------------------------------------------------*/
